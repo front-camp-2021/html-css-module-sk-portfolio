@@ -6,11 +6,749 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Store</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
+<header class="header">
+  <div class="container">
+    <a href="#" class="header__logo">
+      <img src="img/logo/logo.png" alt="logo">
+      <strong>
+        Online Store
+      </strong>
+    </a>
+  </div>
+</header>
+<main>
+  <section class="products-list">
+    <div class="container ">
+      <ul class="products-list__bread-cramps bread-cramps">
+        <li>
+          <a href="#">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M1 6.25L8.61984 1L16.2397 6.25V14.5C16.2397 15.3284 15.4816 16 14.5464 16H2.6933C1.75811 16 1 15.3284 1 14.5V6.25Z"
+                    stroke="#7E72F2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M5.68909 16V8H11.5505V16" stroke="#7E72F2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            eCommerce
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Electronics
+          </a>
+        </li>
+      </ul>
+      <div class="products-list__inner">
+        <aside class="sidebar products-list__sidebar ">
+          <div class="sidebar__head">
+            <h3>
+              Filters
+            </h3>
+            <button class="btn btn--only-img btn--white-bg">
+              <img src="img/icons/arrows-left.svg" alt="close">
+            </button>
+          </div>
+          <form>
+            <div class="sidebar__filter">
+              <h3>
+                <strong>
+                  Multi Range
+                </strong>
+              </h3>
+              <label class="field field--radio sidebar__field">
+                <input type="radio" name="range">
+                <span class="field__radio-substitute">
 
+              </span>
+                <span class="field__name">
+              $10
+              </span>
+              </label>
+              <label class="field field--radio sidebar__field">
+                <input type="radio" name="range">
+                <span class="field__radio-substitute">
+
+              </span>
+                <span class="field__name">
+               $10-$100
+              </span>
+              </label>
+              <label class="field field--radio sidebar__field">
+                <input type="radio" name="range">
+                <span class="field__radio-substitute">
+
+              </span>
+                <span class="field__name">
+                $100-$500
+              </span>
+              </label>
+              <label class="field field--radio sidebar__field">
+                <input type="radio" name="range">
+                <span class="field__radio-substitute">
+
+              </span>
+                <span class="field__name">
+               $500
+              </span>
+              </label>
+              <label class="field field--radio sidebar__field">
+                <input type="radio" name="range">
+                <span class="field__radio-substitute">
+
+              </span>
+                <span class="field__name">
+               All
+              </span>
+              </label>
+            </div>
+            <div class="sidebar__filter">
+              <h3>
+                <strong>
+                  Category
+                </strong>
+              </h3>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Cell Phones
+              </span>
+                <span class="field__value">
+                  1920
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+             Computers & Tablets
+              </span>
+                <span class="field__value">
+                  1820
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+                    Cell Phone Accessories
+                </span>
+                <span class="field__value">
+                  462
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Appliances
+              </span>
+                <span class="field__value">
+                  6556
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Audio
+              </span>
+                <span class="field__value">
+                  120
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              iPhone Accessories
+              </span>
+                <span class="field__value">
+                  353
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Cameras & Camcorders
+              </span>
+                <span class="field__value">
+                  45
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              iPhone Cases & Clips
+              </span>
+                <span class="field__value">
+                  456
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              TV & Home Theater
+              </span>
+                <span class="field__value">
+                  55
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Small Kitchen Appliances
+              </span>
+                <span class="field__value">
+                  10
+                </span>
+                  </span>
+              </label>
+            </div>
+            <div class="sidebar__filter">
+              <h3>
+                <strong>
+                  Brand
+                </strong>
+              </h3>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Insigni
+              </span>
+                <span class="field__value">
+                  220
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+             Samsung
+              </span>
+                <span class="field__value">
+                  120
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+                   Apple
+                </span>
+                <span class="field__value">
+                  320
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              HP
+              </span>
+                <span class="field__value">
+                  32
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Sony
+              </span>
+                <span class="field__value">
+                  520
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Metra
+              </span>
+                <span class="field__value">
+                  55
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Dyne
+              </span>
+                <span class="field__value">
+                  120
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              LG
+              </span>
+                <span class="field__value">
+                  98
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Canon
+              </span>
+                <span class="field__value">
+                  99
+                </span>
+                  </span>
+              </label>
+              <label class="field field--checkbox sidebar__field">
+                <input type="checkbox">
+                <span class="field__checkbox-substitute">
+
+              </span>
+                <span class="field__info">
+                <span class="field__name">
+              Speck
+              </span>
+                <span class="field__value">
+                  575
+                </span>
+                  </span>
+              </label>
+            </div>
+          </form>
+          <button class="btn btn--large-font btn--violet btn--fw">
+            CLEAR ALL FILTERS
+          </button>
+        </aside>
+        <div class="products products-list__main">
+          <div class="products__search-res">
+            <p>
+              7,618 results found
+            </p>
+            <button class="btn btn--only-img btn--violet">
+              <img src="img/icons/white-heart.svg" alt="heart">
+            </button>
+          </div>
+          <form class="products__search search">
+            <input type="text" placeholder="Search">
+            <button>
+              <img src="img/icons/search.svg" alt="search">
+            </button>
+          </form>
+          <div class="products__inner">
+            <article class="products__item product-card product-card--with-rating">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__rating">
+                              <span>
+                                  3.4
+                              </span>
+                      <img src="img/icons/star.svg" alt="rating-star">
+                    </div>
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card ">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-2.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card ">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-3.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card ">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-4.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card product-card--small-img">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-5.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card ">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-6.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card ">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-7.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card product-card--small-img">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-8.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+            <article class="products__item product-card product-card--with-rating">
+              <div class="product-card__main">
+                <div class="product-card__img">
+                  <img src="img/product-card-imgs/product-card-9.jpg" alt="product">
+                </div>
+                <div class="product-card__info">
+                  <div class="product-card__wr">
+                    <div class="product-card__rating">
+                              <span>
+                                  4.4
+                              </span>
+                      <img src="img/icons/star.svg" alt="rating-star">
+                    </div>
+                    <div class="product-card__price">
+                      $399
+                    </div>
+                  </div>
+                  <div class="product-card__description">
+                    <h3>
+                      Apple Watch Series 4 GPS
+                    </h3>
+                    <p>
+                      Redesigned from scratch and completely revised.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="product-card__btns">
+                <button class="product-card__btn btn">
+                  <img src="img/icons/heart.svg" alt="heart">
+                  <span>WISHLIST</span>
+                </button>
+                <button class="product-card__btn btn btn--violet">
+                  <img src="img/icons/bag.svg" alt="heart">
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <nav class="products-list__pagination pagination">
+        <button class="pagination__btn pagination__btn--left">
+          <img src="img/icons/arrow-left.svg" alt="prev">
+        </button>
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a class="current-page" href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+        <button class="pagination__btn pagination__btn--right">
+          <img src="img/icons/arrow-left.svg" alt="prev">
+        </button>
+      </nav>
+    </div>
+  </section>
+</main>
 </body>
 
 </html>
