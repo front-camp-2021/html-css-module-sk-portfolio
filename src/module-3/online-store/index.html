@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Store</title>
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -24,8 +24,8 @@
   <section class="products-list">
     <div class="container ">
       <ul class="products-list__bread-cramps bread-cramps">
-        <li>
-          <a href="#">
+        <li class="bread-cramps__item">
+          <a href="#" class="bread-cramps__link">
             <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M1 6.25L8.61984 1L16.2397 6.25V14.5C16.2397 15.3284 15.4816 16 14.5464 16H2.6933C1.75811 16 1 15.3284 1 14.5V6.25Z"
@@ -34,13 +34,13 @@
             </svg>
           </a>
         </li>
-        <li>
-          <a href="#">
+        <li class="bread-cramps__item">
+          <a href="#" class="bread-cramps__link">
             eCommerce
           </a>
         </li>
-        <li>
-          <a href="#">
+        <li class="bread-cramps__item">
+          <a href="#" class="bread-cramps__link">
             Electronics
           </a>
         </li>
@@ -55,7 +55,7 @@
               <img src="img/icons/arrows-left.svg" alt="close">
             </button>
           </div>
-          <form>
+          <form class="sidebar__form">
             <div class="sidebar__filter">
               <h3>
                 <strong>
@@ -403,7 +403,7 @@
               </label>
             </div>
           </form>
-          <button class="btn btn--large-font btn--violet btn--fw">
+          <button class="btn btn--large-font btn--violet btn--full-width">
             CLEAR ALL FILTERS
           </button>
         </aside>
@@ -730,17 +730,17 @@
         <button class="pagination__btn pagination__btn--left">
           <img src="img/icons/arrow-left.svg" alt="prev">
         </button>
-        <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a class="current-page" href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+        <ul class="pagination__list">
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a class="pagination__link--current pagination__link" href="#"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
+          <li class="pagination__item"><a href="#" class="pagination__link"></a></li>
         </ul>
         <button class="pagination__btn pagination__btn--right">
           <img src="img/icons/arrow-left.svg" alt="prev">
