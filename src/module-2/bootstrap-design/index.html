@@ -1,0 +1,678 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body class="bg-light">
+<header class="pt-4">
+  <div class="container-fluid pe-4 ps-4">
+    <div class="row">
+      <div class="col-12  d-inline-flex align-middle mb-5">
+        <img src="img/logo/logo.png" alt="logo">
+        <h1 class="ms-4 ">
+          Online Store
+        </h1>
+      </div>
+    </div>
+  </div>
+</header>
+<main>
+  <section>
+    <div class="container-fluid pe-4 ps-4">
+      <div class="row">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="#">
+                <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M1 6.25L8.61984 1L16.2397 6.25V14.5C16.2397 15.3284 15.4816 16 14.5464 16H2.6933C1.75811 16 1 15.3284 1 14.5V6.25Z"
+                        stroke="#7E72F2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M5.68909 16V8H11.5505V16" stroke="#7E72F2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="#">eCommerce</a>
+            </li>
+            <li class="breadcrumb-item active" aria-current="page">
+              <a href="#">Electronics</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+      <div class="row">
+        <div class="d-none d-sm-none d-lg-block  col-lg-3 ">
+          <div class="d-flex align-items-center justify-content-between mb-3">
+            <h5 class="fw-normal mb-0">
+              Filters
+            </h5>
+            <button class="btn btn-light bg-white shadow-sm">
+              <img src="img/icons/arrows-left.svg" alt="sidebar-button">
+            </button>
+          </div>
+          <form class="rounded bg-white p-4 shadow-sm">
+            <div class="pb-3 border-bottom mb-4 ">
+              <h3 class="mb-4 fs-5">
+                Multi Range
+              </h3>
+              <div class="form-check mb-3 fs-5 fs-5">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class=" form-check-label " for="flexRadioDefault1">
+                  $10
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class=" form-check-label " for="flexRadioDefault2">
+                  $10-$100
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                <label class=" form-check-label " for="flexRadioDefault1">
+                  $100-$500
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                <label class=" form-check-label " for="flexRadioDefault2">
+                  $500
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5" checked>
+                <label class=" form-check-label " for="flexRadioDefault2">
+                  All
+                </label>
+              </div>
+            </div>
+            <div class="pb-3 border-bottom mb-4 ">
+              <h3 class="mb-4 fs-5">
+                Category
+              </h3>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                <label class=" form-check-label row" for="flexCheckDefault1">
+                  <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Cell Phones
+                  </span>
+                  <span>
+                      1920
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                <label class=" form-check-label row" for="flexCheckDefault2">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                      Computers & Tablets
+                  </span>
+                  <span>
+                      1820
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                <label class=" form-check-label row" for="flexCheckDefault2">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                      Cell Phone Accessories
+                  </span>
+                  <span>
+                      462
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                <label class=" form-check-label row" for="flexCheckDefault4">
+                    <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                      Appliances
+                  </span>
+                  <span>
+                      6556
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                <label class=" form-check-label row" for="flexCheckDefault5">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                      Audio
+                  </span>
+                  <span>
+                      120
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault6">
+                <label class=" form-check-label row" for="flexCheckDefault6">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                      iPhone Accessories
+                  </span>
+                  <span>
+                      353
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault7">
+                <label class=" form-check-label row" for="flexCheckDefault7">
+                  <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                     Cameras & Camcorders
+                  </span>
+                  <span>
+                      45
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault8">
+                <label class=" form-check-label row" for="flexCheckDefault8">
+                    <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                     iPhone Cases & Clips
+                  </span>
+                  <span>
+                     456
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault9">
+                <label class=" form-check-label row" for="flexCheckDefault9">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                     TV & Home Theater
+                  </span>
+                  <span>
+                     55
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault10">
+                <label class=" form-check-label row" for="flexCheckDefault10">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Small Kitchen Appliances
+                  </span>
+                  <span>
+                     10
+                  </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+            <div>
+              <h3 class="mb-4 fs-5">
+                Brand
+              </h3>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault12">
+                <label class=" form-check-label row" for="flexCheckDefault12">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Insigni
+                  </span>
+                  <span>
+                      220
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault13">
+                <label class=" form-check-label row" for="flexCheckDefault13">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Samsung
+                  </span>
+                  <span>
+                      120
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault14">
+                <label class=" form-check-label row" for="flexCheckDefault14">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Apple
+                  </span>
+                  <span>
+                      320
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault15">
+                <label class=" form-check-label row" for="flexCheckDefault15">
+                  <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    HP
+                  </span>
+                  <span>
+                      32
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault16">
+                <label class=" form-check-label row" for="flexCheckDefault16">
+                    <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Sony
+                  </span>
+                  <span>
+                      520
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault17">
+                <label class=" form-check-label row" for="flexCheckDefault17">
+                  <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Metra
+                  </span>
+                  <span>
+                      55
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault18">
+                <label class=" form-check-label row" for="flexCheckDefault18">
+                 <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Dyne
+                  </span>
+                  <span>
+                      120
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault19">
+                <label class=" form-check-label row" for="flexCheckDefault19">
+                 <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    LG
+                  </span>
+                  <span>
+                      98
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault20">
+                <label class=" form-check-label row" for="flexCheckDefault20">
+                  <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Canon
+                  </span>
+                  <span>
+                      99
+                  </span>
+                  </span>
+                </label>
+              </div>
+              <div class="form-check mb-3 fs-5">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault21">
+                <label class=" form-check-label row" for="flexCheckDefault21">
+                   <span class="d-flex align-items-center justify-content-between ">
+                  <span>
+                    Speck
+                  </span>
+                  <span>
+                      575
+                  </span>
+                  </span>
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class=" col-xs-12 col-lg-9">
+          <div class="d-flex align-items-center justify-content-between mb-3">
+            <p class="mb-0">
+              7,618 results found
+            </p>
+            <button type="button" class="btn btn-primary d-flex justify-content-center align-items-center shadow-sm">
+              <img
+                src="img/icons/white-heart.svg" alt="heart"></button>
+          </div>
+          <form class="mb-3 shadow-sm">
+            <label class="d-flex align-items-center justify-content-between">
+              <input type="search" class="col-11">
+              <button type="submit" class="btn btn-light d-flex justify-content-center align-items-center col-1">
+                <img src="img/icons/search.svg" alt="search">
+              </button>
+            </label>
+          </form>
+          <div class="row">
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-sm-12 col-12 d-flex align-items-center justify-content-center ">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+            <div class="col-xxl-3 col-xl-4 col-md-4 col-sm-6 col-xs-12 bg-white p-3 shadow-sm rounded">
+              <div class="d-flex flex-column">
+                <img src="img/product-card-imgs/product-card-1.jpg" alt="product">
+                <div class="d-flex align-items-center justify-content-between mt-4">
+                  <div class="d-flex align-items-center bg-primary p-2 rounded">
+                        <span class="text-light me-2 ">
+                          3.4
+                        </span>
+                    <img src="img/icons/star.svg" alt="rating">
+                  </div>
+                  <div>
+                    $399
+                  </div>
+                </div>
+                <h3 class="fs-5 fw-bolder mt-3">
+                  Apple Watch Series 4 GPS
+                </h3>
+                <p class="fs-6 fw-light">
+                  Redesigned from scratch and completely revised.
+                </p>
+              </div>
+              <div class="d-xxl-flex justify-content-between">
+                <button class="btn btn-secondary text-light col-xxl-6 col-12 d-flex align-items-center justify-content-center">
+                  <img src="img/icons/white-heart.svg" alt="heart" class="me-3">WISHLIST
+                </button>
+                <button class="btn btn-primary text-light d-flex col-xxl-6 col-sm-12 col-12 align-items-center justify-content-center">
+                  <img src="img/icons/bag.svg" alt="bag" class="me-3">ADD TO CART
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <nav aria-label="Page navigation example">
+          <ul class="pagination d-flex justify-content-center ">
+            <li class="page-item "><a class="page-link text-white bg-secondary rounded-circle me-3" href="#"><img src="img/icons/arrow-left.svg" alt="previous"></a></li>
+            <li class="page-item"><a class="page-link p-xs-0    text-white bg-secondary rounded-start" href="#">1</a></li>
+            <li class="page-item"><a class="page-link p-xs-0    text-white bg-secondary" href="#">3</a></li>
+            <li class="page-item"><a class="page-link p-xs-0    text-white bg-secondary" href="#">2</a></li>
+            <li class="page-item"><a class="page-link p-xs-0    text-white bg-secondary" href="#">3</a></li>
+            <li class="page-item"><a class="page-link p-xs-0    text-white bg-secondary" href="#">4</a></li>
+            <li class="page-item"><a class="page-link p-xs-0    text-white bg-secondary" href="#">5</a></li>
+            <li class="page-item rounded-end"><a class="p-xs-0   page-link text-white bg-secondary rounded-end" href="#">6</a></li>
+            <li class="page-item"><a class="page-link text-white bg-secondary rounded-circle ms-3" href="#"><img src="img/icons/arrow-right.svg" alt="next"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
